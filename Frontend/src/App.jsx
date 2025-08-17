@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import UploadComponent from "./UploadComponent";
 
 const API_URL = "http://localhost:5000"; // your backend URL
 
@@ -145,4 +146,12 @@ export default function App() {
       </div>
     </div>
   );
+  function App() {
+  return (
+    <div>
+      <h1>Google Drive Clone</h1>
+      <UploadComponent />
+    </div>
+  );
+}
 }
